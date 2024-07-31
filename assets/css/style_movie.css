@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 2rem;
+  margin: 50px auto;
+}
+
+#hero p {
+  font-weight: 800;
+  font-size: 1.4rem;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  width: 120px;
+  height: 30px;
+  border-radius: 30px;
+  padding: 10px auto;
+  margin: 10px;
+}
+
+.btn_orange {
+  background-color: orange;
+  color: white;
+}
+
+.btn_white {
+  background-color: white;
+  border: 1px solid orange;
+}
+
+/*______________________________*/
+
+.box {
+  background-color: rgb(166, 222, 152);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+p {
+  font-size: 0.8rem;
+  margin: 3px;
+}
