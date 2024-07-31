@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 2.5rem;
+  margin: 20px;
+  text-align: center;
+}
+
+.claim {
+  font-weight: 800;
+  font-size: 1.4rem;
+  text-align: center;
+  margin: 15px;
+}
+
+#Hero {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+input {
+  height: 50px;
+  width: 400px;
+  margin: 5px;
+  border: 2px solid lightgray;
+  border-radius: 50px;
+}
+
+button {
+  width: 170px;
+  height: 50px;
+  border-radius: 30px;
+  padding: 10px auto;
+  margin: 10px;
+  font-weight: 500;
+}
+
+.btn_orange {
+  background-color: orange;
+  color: white;
+  border: 0px;
+}
+
+.btn_white {
+  background-color: white;
+  border: 1px solid orange;
+}
+
+#movies {
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/*______________________________*/
+
+.box {
+  background-color: rgb(178, 222, 152);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 30%;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+p {
+  font-size: 0.8rem;
+  margin: 3px;
+}
+
+li {
+  list-style: none;
+}
