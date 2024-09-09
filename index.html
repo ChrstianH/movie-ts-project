@@ -1,12 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Movie List</title>
+    <link rel="stylesheet" href="./src/movieList/assets/css/style_movie.css" />
   </head>
   <body>
-    <a href="./src/movieList/Index_movie.html">To Movielist</a>
+    <section id="Hero">
+      <h1>Movies for You</h1>
+      <p class="claim">The best MovieDB</p>
+      <article>
+        <input type="text" id="search_input" />
+        <button class="btn_orange" id="btn_search">SEARCH</button>
+      </article>
+      <article>
+        <button class="btn_white" id="btn_Year_up">YEAR UP</button>
+        <button class="btn_white" id="btn_Year_down">YEAR DOWN</button>
+        <button class="btn_white" id="btn_best_rate">BEST RATE</button>
+      </article>
+    </section>
+    <section id="movies"></section>
+    <script type="module" src="./src/movieList/assets/ts/main.ts"></script>
   </body>
 </html>
