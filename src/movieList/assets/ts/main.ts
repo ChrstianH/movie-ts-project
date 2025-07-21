@@ -49,21 +49,21 @@ const btnSearch = document.getElementById("btn_search");
 
 btnYearUp?.addEventListener("click", function (event: MouseEvent) {
   event.preventDefault();
-  moviesCopy = movies.sort(
+  moviesCopy = moviesCopy.sort(
     (movie1, movie2) => Number(movie1[1]) - Number(movie2[1])
   );
   showMovies();
 });
 btnYearDown?.addEventListener("click", function (event: MouseEvent) {
   event.preventDefault();
-  moviesCopy = movies.sort(
+  moviesCopy = moviesCopy.sort(
     (movie1, movie2) => Number(movie2[1]) - Number(movie1[1])
   );
   showMovies();
 });
 btnBestRate?.addEventListener("click", function (event: MouseEvent) {
   event.preventDefault();
-  moviesCopy = movies.sort(
+  moviesCopy = moviesCopy.sort(
     (movie1, movie2) => Number(movie2[5]) - Number(movie1[5])
   );
   showMovies();
